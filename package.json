@@ -1,0 +1,31 @@
+{
+  "name": "mongo-scraper-week19-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djahern-max/Mongo-Scraper-Week19-V2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djahern-max/Mongo-Scraper-Week19-V2/issues"
+  },
+  "homepage": "https://github.com/djahern-max/Mongo-Scraper-Week19-V2#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "mongojs": "^3.0.0",
+    "mongoose": "^5.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
